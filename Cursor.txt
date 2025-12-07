@@ -1,0 +1,72 @@
+package Cursor;
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+//		Vector<Integer> v= new Vector<Integer>();
+//		v.add(10);
+//		v.add(21);
+//		v.add(32);
+//		v.add(43);
+//		v.add(54);
+//		Enumeration<Integer> e=v.elements();
+//	       while(e.hasMoreElements()) {
+//	    	   int num=e.nextElement();
+//	    	   if(num%2 == 0) {
+//	    		   System.out.println(num);
+//	    	   }
+//	       }
+	       
+//		ArrayList<String> l=new ArrayList<String>();
+//		l.add("Apple");
+//		l.add("Ball");
+//		l.add("Ant");
+//		l.add("cat");
+//		l.add("Axe");
+//		l.add("Dog");
+////		System.out.println(l);
+//		Iterator<String> it=l.iterator();
+//		while(it.hasNext()){
+//			String c=it.next();
+//			if(c.startsWith("A")) {
+//				it.remove();
+//			}
+//		}
+//		System.out.println(l);
+		
+//		ArrayList<String> l=new ArrayList<String>();
+//		l.add("Java");
+//		l.add("Spring");
+//		l.add("Hibernate");		
+//		ListIterator<String> it=l.listIterator(l.size());
+////        while(it.hasNext()) {
+//        	while(it.hasPrevious()) {
+////    	  System.out.println(it.next());
+//        	System.out.println(it.previous());
+//      }
+//
+//	}
+		
+//		ArrayList<String> l=new ArrayList<String>();
+//		l.add("tom");
+//		l.add("john");
+//		l.add("david");		
+//		ListIterator<String> it=l.listIterator();
+//        while(it.hasNext()) {
+//        	String s=it.next();
+//        	it.set(s.toUpperCase());
+//        }
+//        System.out.println(l);
+		
+		ArrayList<Integer> a= new ArrayList<Integer>(Arrays.asList(5,10,15,20,25));
+		Iterator<Integer> it=a.iterator();
+		int count=0;
+		while(it.hasNext()){
+			it.next();
+			count++;
+		}
+		System.out.println("Count :"+count);
+
+}
+}
